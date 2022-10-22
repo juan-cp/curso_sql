@@ -61,7 +61,48 @@ En una BBDD, las tablas tienen un nombre único. Una BBDD puede contener varias 
 
 Ejemplo de diagrama ER: https://docs.staruml.io/working-with-additional-diagrams/entity-relationship-diagram
 
+## Tipos de Datos
+Las bases de datos en las que se puede consultar con SQL se les conoce como bases de datos relacionales, mientras que los datos que se almacenan en ellas son datos estructurados; es decir, corresponden a un tipo bien específico de dato que caerá en las siguientes categorías:
 
+Tipos Numéricos
+- `INT`: Número enteros, en un rango de $[-2^{31},2^{31}]$
+- `BIGINT`: Número entero entre  $[-2^{64},2^{64}]$ 
+- `BIT`: Para un número entero que puede ser 0 ó 1.
+- `FLOAT`: Números decimales
+
+Tipos de Texto/Fecha
+- `CHAR`: Este tipo es para cadenas de longitud fija. Su longitud va desde 1 a 255 caracteres. Siempre se ocupara el largo que hayamos dado (añadiendo espacios en el caso que faltasen caracteres).
+- `VARCHAR`: Para una cadena de caracteres de longitud variable de hasta 8.060.
+- `NVARCHAR`: texto de longitud variable que puede tener hasta 65.535 caracteres.
+- `DATE`: Para almacenar fechas. El formato por defecto es yyyymmdd.
+- `DATETIME`: Combinacion de fecha y hora.
+
+## Data Definition Language
+
+Las declaraciones DDL o Data Definition Language corresponden a aquellas que intervienen de alguna manera el esquema de la BBDD o manipulan nuevos objetos adyacentes a las tablas. Las declaraciones DDL suelen empezar con un comando `CREATE` en caso de que se crean objetos, `ALTER` para modificarlos y `DROP` para borrarlos.
+
+Por ejemplo:
+``
+CREATE TABLE mitabla (campo1 tipo1, campo2 tipo2 ... )
+DROP TABLE mitabla 
+``
+ALTER TABLE cambia la estructura de una tabla. Por ejemplo, puede agregar o eliminar columnas, crear o borrar índices, cambiar el tipo de columnas existentes o cambiar el nombre de las columnas o de la tabla en sí.
+
+Ejemplo de agregar nueva columna:
+
+    ALTER TABLE mitabla
+    ADD camponuevo tipo
+
+También puede ir acompañado de borrar columnas:
+``
+ALTER TABLE mitabla DROP COLUMN nombre_columna1, DROP COLUMN nombre_columna2...
+``
+Para borrar una tabla, usar comando DROP TABLE. Para vaciar usar TRUNCATE TABLE:
+
+    DROP TABLE nombre-tabla 
+    TRUNCATE TABLE nombre-tabla
+
+Ojo: operaciones CREATE/ALTER/DROP requieren permisos de escritura
 
 
 
