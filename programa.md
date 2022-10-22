@@ -26,7 +26,10 @@ Vale mencionar que como condición de certificación se requerirá la entrega de
 # Contacto
                                                   
 Juan Carrasco Pastrián, Máster en Data Analytics, UPC Barcelona.\
-Ingeniero Civil Industrial, U. de Chile
+Ingeniero Civil Industrial, U. de Chile\
+jcarrasco@programbi.cl \
+Linkedin: https://www.linkedin.com/in/juan-alejandro-carrasco-pastri%C3%A1n-21469a59/
+
 
 # Links de interés
 
