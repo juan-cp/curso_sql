@@ -1,7 +1,7 @@
 # ProgramBI SQL-Entrega 1
 Profesor: Juan Carrasco Pastrián <br>
 > **Entrega de evaluación**: Enviar un mail a juanoale@gmail.com donde el asunto sea "E1 Noviembre 2022 - NombreyApellido". 
-> Se recibirán archivos hasta el Martes 08-11-2022 a las 23:59. <br>
+> Se recibirán archivos hasta el Martes 15-11-2022 a las 23:59. <br>
 **Puntaje Máximo**: 100 puntos.  
 
 En una empresa de software y capacitaciones se está desarrollando un sistema de evaluación  como parte de un paquete de e-learning comercial. En este sistema, los tests consisten de 1 ó más preguntas con alternativas. Se cuenta con el siguiente modelo de datos relacional para modelar los tests:
