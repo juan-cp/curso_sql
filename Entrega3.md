@@ -1,7 +1,7 @@
 # ProgramBI SQL-Entrega 3
 Profesor: Juan Carrasco Pastrián <br>
 > **Entrega de evaluación**: Enviar un mail a juanoale@gmail.com donde el asunto sea "E3 Noviembre 2022 - NombreyApellido". 
-> Se recibirán archivos hasta el Viernes 02-12-2022 a las 23:59. <br>
+> Se recibirán archivos hasta el Martes 06-12-2022 a las 23:59. <br>
 **Puntaje Máximo**: 100 puntos.  
 ## Data
 
