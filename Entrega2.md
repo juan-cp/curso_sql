@@ -1,7 +1,7 @@
 # ProgramBI SQL-Entrega 2
 Profesor: Juan Carrasco Pastrián <br>
 > **Entrega de evaluación**: Enviar un mail a juanoale@gmail.com donde el asunto sea "E2 Noviembre 2022 - NombreyApellido". 
-> Se recibirán archivos hasta el Jueves 17-11-2022 a las 23:59. <br>
+> Se recibirán archivos hasta el Jueves 24-11-2022 a las 23:59. <br>
 **Puntaje Máximo**: 100 puntos.  
 ## Data
 
