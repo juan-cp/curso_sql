@@ -1,0 +1,4 @@
+--mover a directorio del container para acceder al archivo
+-- docker container ls
+--docker cp /Users/jcarrap/Desktop/Base_salarios_2.csv 5083b1a3b25e:/Base_salarios_2.csv
+--bash para container: docker exec -u 0 -it 5083b1a3b25e bash
